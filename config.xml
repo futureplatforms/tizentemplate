@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/TizenApp" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"></access>
+    <tizen:application id="kLrquPeT7j.TizenApp" package="kLrquPeT7j" required_version="2.2"/>
+    <content src="app/index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <feature name="http://tizen.org/feature/network.wifi"/>
+    <icon src="app/icon.png"/>
+    <name>TizenApp</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/call"/>
+    <tizen:privilege name="http://tizen.org/privilege/callhistory.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/callhistory.write"/>
+    <tizen:privilege name="http://tizen.org/privilege/contact.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/systemmanager"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:setting background-support="enable" encryption="disable" hwkey-event="enable"/>
+</widget>

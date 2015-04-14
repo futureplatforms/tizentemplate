@@ -1,0 +1,10 @@
+{
+  "name": "tizentemplate",
+  "dependencies": {
+    "requirejs": "~2.1.17",
+    "qunit": "~1.17.1"
+  },
+  "devDependencies": {
+    "qunit": "~1.17.1"
+  }
+}
